@@ -1,0 +1,11 @@
+# Основная сцена. Координаты задаются в мировых единицах OpenGL.
+camera 9 7 14 0 0 -1
+light 4 10 5
+background background.ppm
+
+# object имя форма x y z размер оформление значение роль
+object player cube -4 0.75 2 1.5 texture crate.ppm player
+object carrot_1 carrot -1 0.68 -3 1.5 material carrot collectible
+object carrot_2 carrot 3 0.68 -1 1.5 material carrot collectible
+object carrot_3 carrot 1 0.68 3 1.5 material carrot collectible
+object stone_barrier cube 0 1 0 2 material stone obstacle

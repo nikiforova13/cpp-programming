@@ -1,0 +1,9 @@
+# Упрощённый пример входных данных с другим расположением моделей.
+camera 8 7 13 0 0 0
+light -4 9 4
+background background.ppm
+
+object player cube -3 0.75 3 1.5 texture crate.ppm player
+object first_carrot carrot -2 0.68 -2 1.5 material carrot collectible
+object second_carrot carrot 3 0.68 0 1.5 material carrot collectible
+object column cube 0 1.25 1 2.5 material stone obstacle
